@@ -1,0 +1,229 @@
+.main {
+  color: antiquewhite;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-image {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  display: block;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 10%; /* Adjust position from the top */
+  color: white; /* Change text color */
+  font-size: 44px; /* Adjust font size */
+  /* Remove potential background or border */
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  /* Additional styles as needed */
+}
+
+.intro {
+  position: absolute;
+  top: 25%; /* Adjust position from the top */
+  color: white; /* Change text color */
+  font-size: 30px; /* Adjust font size */
+  /* Remove potential background or border */
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.desc {
+  position: absolute;
+  top: 65%;
+  left: 2%;
+  width: 200px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 27px;
+}
+.pricing {
+  position: absolute;
+  top: 80%; /* Adjust position from the top */
+  left: 45%;
+  color: white; /* Change text color */
+  font-size: 34px; /* Adjust font size */
+  /* Remove potential background or border */
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.Button {
+  position: absolute;
+  top: 80%;
+  left: 70%; /* Adjust position from the top */
+  color: white; /* Change text color */
+  font-size: 24px;
+  background-color: blue;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+  transform-origin: center center; /* Set the transformation origin to the center */
+}
+
+.Button:hover {
+  transform: scale(1.1); /* Increase the button size by 10% */
+  background-color: rgb(255, 145, 0);
+}
+.servers {
+  margin-top: 75px;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image {
+  border: 5px;
+  height: 180px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  width: 280px;
+  justify-content: space-between;
+}
+.image:hover {
+  border-color: white; /* Change border color on hover */
+  transform: scale(1.1);
+}
+.title {
+  font-size: 25px;
+  color: white;
+  /* transition: all 0.3s ease; */
+}
+.title:hover {
+  /* transform: scale(1.1); */
+  color: rgb(255, 145, 0);
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.image-container:hover .image,
+.image-container:hover .title {
+  border-color: white; /* Change border color on hover */
+  transform: scale(1.1); /* Zoom effect on hover */
+  cursor: pointer;
+}
+.image-container:hover .title {
+  color: orange; /* Change title color to orange on hover */
+}
+.container {
+  transition: all 0.3s ease;
+}
+.container:hover {
+  transform: scale(1.1);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+.see-more {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #ffffff; /* Default button color */
+  color: #000000; /* Default text color */
+  border: 2px solid #000000; /* Default border */
+  border-radius: 10px; /* Border radius */
+  cursor: pointer; /* Set cursor to pointer */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  font-size: 30px;
+}
+
+.see-more:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 145, 0); /* Change background color on hover */
+  color: #ffffff; /* Change text color on hover */
+  border-color: rgb(255, 145, 0); /* Change border color on hover */
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+.cards {
+  border: 4px;
+  height: 370px;
+  width: 375px;
+  background-color: rgb(36, 33, 52);
+  padding: 20px;
+  border-radius: 7px;
+  margin: 15px;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contents {
+  color: azure;
+  width: 350px;
+  font-size: 17px;
+  margin-top: 55px;
+}
+.head-title {
+  color: #ffffff;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+.svgs {
+  height: 100px;
+}
+.services {
+  font-size: 34px;
+}
+.card-title {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.card-desc {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin-bottom: 12px;
+  font-size: 17px;
+  color: rgb(203, 205, 206);
+}
+.ticks {
+  background: transparent;
+  border: none;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+.tick {
+  height: 17px;
+  margin-right: 5px;
+}
+.card-icon {
+  background: transparent;
+  border: none;
+  height: 120px;
+  padding: 15px;
+}
+.why-us {
+  margin-top: 25px;
+  font-size: 40px;
+  color: white;
+}

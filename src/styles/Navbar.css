@@ -1,0 +1,23 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+}
+.logos {
+  height: 100px;
+}
+.links {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0%;
+}
+.link {
+  font-size: 24px;
+  padding: 5px;
+  margin-left: 25px;
+  cursor: pointer;
+  color: antiquewhite;
+  display: flex;
+}
+.link:hover {
+  color: rgb(255, 145, 0);
+}

@@ -1,0 +1,27 @@
+.Footer {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  margin-left: 55px;
+  padding: 5px;
+}
+.heading {
+  color: rgb(255, 145, 0);
+  font-size: 24px;
+  padding: 5px;
+}
+.white {
+  color: white;
+  padding: 5px;
+}
+.white:hover {
+  color: rgb(255, 145, 0);
+  cursor: pointer;
+}
+.picture {
+  height: 150px;
+  margin-left: auto;
+  margin-right: 0;
+}
